@@ -19,14 +19,14 @@ a {
 }
 
 .errItemImg{
-  padding: 3%;
+  padding: 15px 3% 15px 3%;
   color: blue;
 }
 
 .errItemTitle {
   font-family: 'VT323', monospace;
   font-size: 40px;
-  margin: 15px 0 15px 0;
+  padding: 15px 0 15px 0;
 }
 
 .errcontainer {
@@ -34,6 +34,6 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 0%;
-  /*align-items: center;*/
+  /* align-items: center; */
   justify-items: center;
 }
