@@ -18,7 +18,7 @@ You should have received a copy of the MIT license. If not, you can get one from
 
 * /resources/img/icons/favicon.png - by Koen, published at https://dribbble.com/shots/14249400-Firefox-Logo-Design 
 * /resources/img/loading.svg - taken from https://loading.io/
-* /resources/img/fonts/VT323-Regular.ttf - by Peter Hull, licensed under the Open Font License, taken from https://fonts.google.com/specimen/VT323 
+* /resources/fonts/VT323-Regular.ttf - by Peter Hull, licensed under the Open Font License, taken from https://fonts.google.com/specimen/VT323 
 * /resources/img/anime/96BYTHT.jpg - taken from -UNKNOWN-
 * /resources/img/anime/anewwall.png - taken from -UNKNOWN-
 * /resources/img/anime/morpho.jpg - taken from https://github.com/szorfein/dotfiles/
