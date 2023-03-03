@@ -12,28 +12,28 @@ a {
   background: transparent;
 }
 
-.errItem {
-  font-family: 'VT323', monospace;
-  color: white;
-  font-size: 27px;
-}
-
-.errItemImg{
-  padding: 15px 3% 15px 3%;
-  color: blue;
-}
-
-.errItemTitle {
-  font-family: 'VT323', monospace;
-  font-size: 40px;
-  padding: 15px 0 15px 0;
-}
-
-.errcontainer {
+.container {
   background-color: black;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 0%;
   /* align-items: center; */
   justify-items: center;
+}
+
+.item {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 27px;
+}
+
+.itemImg{
+  padding: 15px 3% 15px 3%;
+  color: blue;
+}
+
+.itemTitle {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  padding: 15px 0 15px 0;
 }
