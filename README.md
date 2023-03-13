@@ -51,6 +51,7 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/img/anime/wallhaven-x88m3l.png - taken from https://wallhaven.cc/w/x88m3l
 * /resources/img/anime/wallhaven-ymom6x.jpg - taken from https://wallhaven.cc/w/ymom6x
 * /resources/img/anime/wallhaven-z8ylgj.jpg - taken from https://wallhaven.cc/w/z8ylgj
+* /resources/img/anime/244895-aliya06.png - taken from https://www.1zoom.me/pt/wallpaper/244895/z1227.1/
 
 ```bash
 .
