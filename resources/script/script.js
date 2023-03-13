@@ -33,7 +33,8 @@ const imgPathArr = [
   "./resources/img/itemImg/wallhaven-q68d17.png",
   "./resources/img/itemImg/wallhaven-x88m3l.png",
   "./resources/img/itemImg/wallhaven-ymom6x.jpg",
-  "./resources/img/itemImg/wallhaven-z8ylgj.jpg"
+  "./resources/img/itemImg/wallhaven-z8ylgj.jpg",
+  "./resources/img/itemImg/244895-aliya06.png"
 ]
 
 /* Get a random path from imgPathArr and set it in HTML */
