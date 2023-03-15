@@ -25,11 +25,12 @@ a {
   font-family: 'VT323', monospace;
   color: white;
   font-size: 27px;
+  padding: 0 3% 0 3%;
 }
 
 .itemImg{
-  padding: 15px 3% 15px 3%;
   color: blue;
+  padding: 15px 0 15px 0;
 }
 
 .itemTitle {
