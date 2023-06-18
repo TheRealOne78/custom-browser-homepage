@@ -38,3 +38,21 @@ a {
   font-size: 40px;
   padding: 15px 0 15px 0;
 }
+
+.infinite-cursor {
+  animation: infinite-cursor 1.75s infinite;
+}
+@keyframes infinite-cursor {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: black;
+  }
+  51% {
+    background-color: currentColor;
+  }
+  100% {
+    background-color: currentColor;
+  }
+}
