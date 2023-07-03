@@ -7,9 +7,12 @@ html, body {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration-style: dashed;
   color: white;
   background: transparent;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .container {
