@@ -59,6 +59,7 @@ a:hover {
   flex-direction: column;
   max-width: 34vw;
   align-items: center;
+  text-align: center;
 }
 @media screen and (max-width: 1200px) {
   .imgContainer {
