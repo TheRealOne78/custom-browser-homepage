@@ -39,7 +39,9 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/img/itemImg/wallhaven-eyy16o.jpg - taken from https://wallhaven.cc/w/eyy16o
 * /resources/img/itemImg/wallhaven-g7pok3.png - taken from https://wallhaven.cc/w/g7pok3
 * /resources/img/itemImg/wallhaven-g8ez97.jpg - taken from https://wallhaven.cc/w/g8ez97
+* /resources/img/itemImg/wallhaven-j3ddgp.jpg - taken from https://wallhaven.cc/w/j3ddgp
 * /resources/img/itemImg/wallhaven-j55m7p.jpg - taken from https://wallhaven.cc/w/j55m7p
+* /resources/img/itemImg/wallhaven-l8mxeq.jpg - taken from https://wallhaven.cc/w/l8mxeq
 * /resources/img/itemImg/wallhaven-m9evmk.png - taken from https://wallhaven.cc/w/m9evmk
 * /resources/img/itemImg/wallhaven-md2qzk.jpg - taken from https://wallhaven.cc/w/md2qzk
 * /resources/img/itemImg/wallhaven-o33lj5.jpg - taken from https://wallhaven.cc/w/o33lj5
@@ -48,15 +50,18 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/img/itemImg/wallhaven-pkkxg9.jpg - taken from https://wallhaven.cc/w/pkkxg9
 * /resources/img/itemImg/wallhaven-q66oqq.png - taken from https://wallhaven.cc/w/q66oqq
 * /resources/img/itemImg/wallhaven-q68d17.png - taken from https://wallhaven.cc/w/q68d17
+* /resources/img/itemImg/wallhaven-rrjgw7.png - taken from https://wallhaven.cc/w/rrjgw7
+* /resources/img/itemImg/wallhaven-vq551p.jpg - taken from https://wallhaven.cc/w/vq551p
+* /resources/img/itemImg/wallhaven-we63vp.png - taken from https://wallhaven.cc/w/we63vp
 * /resources/img/itemImg/wallhaven-x88m3l.png - taken from https://wallhaven.cc/w/x88m3l
 * /resources/img/itemImg/wallhaven-ymom6x.jpg - taken from https://wallhaven.cc/w/ymom6x
 * /resources/img/itemImg/wallhaven-z8ylgj.jpg - taken from https://wallhaven.cc/w/z8ylgj
 
 ```bash
 .
-├── homepage.html
 ├── LICENSE.MIT
 ├── README.md
+├── homepage.html
 └── resources
     ├── css
     │   └── main.css
@@ -86,7 +91,9 @@ You should have received a copy of the MIT license. If not, you can get one from
     │   │   ├── wallhaven-eyy16o.jpg
     │   │   ├── wallhaven-g7pok3.png
     │   │   ├── wallhaven-g8ez97.jpg
+    │   │   ├── wallhaven-j3ddgp.jpg
     │   │   ├── wallhaven-j55m7p.jpg
+    │   │   ├── wallhaven-l8mxeq.jpg
     │   │   ├── wallhaven-m9evmk.png
     │   │   ├── wallhaven-md2qzk.jpg
     │   │   ├── wallhaven-o33lj5.jpg
@@ -95,6 +102,9 @@ You should have received a copy of the MIT license. If not, you can get one from
     │   │   ├── wallhaven-pkkxg9.jpg
     │   │   ├── wallhaven-q66oqq.png
     │   │   ├── wallhaven-q68d17.png
+    │   │   ├── wallhaven-rrjgw7.png
+    │   │   ├── wallhaven-vq551p.jpg
+    │   │   ├── wallhaven-we63vp.png
     │   │   ├── wallhaven-x88m3l.png
     │   │   ├── wallhaven-ymom6x.jpg
     │   │   └── wallhaven-z8ylgj.jpg
@@ -102,5 +112,5 @@ You should have received a copy of the MIT license. If not, you can get one from
     └── script
         └── script.js
 
-8 directories, 40 files
+8 directories, 45 files
 ```
