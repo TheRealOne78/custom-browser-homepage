@@ -1,4 +1,23 @@
 <!DOCTYPE HTML>
+
+<!--
+  Copyright (C) 2023 TheRealOne78 <bajcsielias78@gmail.com>
+
+  This file is part of the 'TheRealOne78's Browser Homepage' project
+
+  'TheRealOne78's Browser Homepage' is free software: you can redistribute it
+  and/or modify it under the terms of the MIT License as published by the
+  Massachusetts Institute of Technology.
+
+  'TheRealOne78's Browser Homepage' is distributed in the hope that it will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the MIT License for
+  more details.
+
+  You should have received a copy of the MIT License along with 'TheRealOne78's
+  Browser Homepage'. If not, see <https://mit-license.org/>.
+-->
+
 <html>
   <head>
     <meta charset="UTF-8">
@@ -11,56 +30,43 @@
          font-family: "VT323";
         src: url('./resources/fonts/VT323-Regular.ttf');
       }
-
-      html, body {
-        font-family: "VT323";
-      }
     </style>
   </head>
 
   <body>
     <br><br>
     <div class="container">
-      <div class="item">
-        <div class="itemText">
-          <div>
-            <div class="itemTitle">DuckDuckGo Search Engine&trade;</div>
-            <form method="get" id="search" action="https://duckduckgo.com/">
-              <input type="hidden" name="k8" value="#444444">
-              <input type="hidden" name="k9" value="#D51920">
-              <input type="hidden" name="kt" value="h">
-              <input type="text" name="q" maxlength="255" placeholder=" Search&hellip;" style="background-color: #111111; color: #ffffff; width: 100%; border: 1px solid gray; height: 40px">
-              <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" >
-            </form>
-          </div>
-          <div class="itemTitle">
-            Quick access:<br>
-          </div>
+      <div class="contentContainer">
+        <div class="itemTextContainer">
+          <div class="itemTitle">DuckDuckGo Search Engine&trade;</div><!-- DuckDuckGo Search Engine -->
+          <form method="get" id="search" action="https://duckduckgo.com/">
+            <input type="hidden" name="k8" value="#444444">
+            <input type="hidden" name="k9" value="#D51920">
+            <input type="hidden" name="kt" value="h">
+            <input type="text" name="q" maxlength="255" placeholder=" Search&hellip;" style="background-color: #111111; color: #ffffff; width: 100%; border: 1px solid gray; height: 40px">
+            <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" >
+          </form>
+          <div class="itemTitle">Quick access:</div><!-- Quick access -->
           <div>
             * TheRealOne78: <a href="https://therealone78.ddns.net">therealone78.ddns.net</a><br>
-            * Youtube: <a href="http://yt.lol:9010">yt.lol:9010</a> | <a href="https://youtube.com">youtube.com</a><br>
-            * Google Classrooom: <a href="https://classroom.google.com/u/1/h">classroom.google.com/u/1/h</a><br>
-            * Gentoo Overlays: <a href="https://gpo.zugaina.org/">gpo.zugaina.org</a><br>
-            * David's Game Server: <a href="http://advguild.myftp.org/Games/Playing.php">advguild.myftp.org/Games/Playing.php</a><br>
+            * Youtube: <a href="https://youtube.com">youtube.com</a><br>
+            * Odysee: <a href="https://odysee.com/">odysee.com</a><br>
             * GitHub: <a href="https://github.com">github.com</a> | <a href="https://gist.github.com">gist.github.com</a><br>
-            * Gentoo's websites: <a href="https://packages.gentoo.org">packages.gentoo.org</a> | <a href="https://wiki.gentoo.org">wiki.gentoo.org</a><br>
             * ChatGPT: <a href="https://chat.openai.com">chat.openai.com</a><br>
+            * Gentoo Linux: <a href="https://www.gentoo.org">www.gentoo.org</a> | <a href="https://wiki.gentoo.org">wiki.gentoo.org</a><br>
+            * Arch Linux: <a href="https://archlinux.org/">archlinux.org</a> | <a href="https://wiki.archlinux.org/">wiki.archlinux.org</a><br>
           </div>
-          <div class="itemTitle">
-            Fun fact:
-          </div>
+          <div class="itemTitle">Fun fact:</div><!-- Fun fact -->
           <div id="funfact">
-            Did you know each insect is a host to ten bacterial species?<br>
-            There are around 2 billion species on Earth—with 6.8 million<br>
-            likely to be species of insects. And up to 10 types of<br>
-            bacteria lives inside of each of these insects!<br>
+            Did you know each insect is a host to ten bacterial species?
+            <p>There are around 2 billion species on Earth—with 6.8 million likely to be species of insects. And up to 10 types of bacteria lives inside of each of these insects!</p>
             <!--https://www.rd.com/list/did-you-know-facts-most-people-dont-know/ - fair use -->
           </div>
         </div>
       </div>
-      <div class="item" align="center">
+      <div class="imgContainer">
         <img id="img" src="./resources/img/loading.svg" class="itemImg" width="80%" height="auto">
-        <div class="itemTitle">Irasshaimase <b>TheRealOne78</b>!<span class="infinite-cursor"> ‎</span></div>
+        <div class="itemTitle welcome-msg">Irasshaimase <b>Guest</b>!<span class="infinite-cursor"> ‎</span></div>
       </div>
     </div>
     <script src="./resources/script/script.js"></script>

@@ -1,9 +1,29 @@
+/*
+ *  Copyright (C) 2023 TheRealOne78 <bajcsielias78@gmail.com>
+ *
+ *  This file is part of the 'TheRealOne78's Browser Homepage' project
+ *
+ *  'TheRealOne78's Browser Homepage' is free software: you can redistribute it
+ *  and/or modify it under the terms of the MIT License as published by the
+ *  Massachusetts Institute of Technology.
+ *
+ *  'TheRealOne78's Browser Homepage' is distributed in the hope that it will be
+ *  useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the MIT License for
+ *  more details.
+ *
+ *  You should have received a copy of the MIT License along with 'TheRealOne78's
+ *  Browser Homepage'. If not, see <https://mit-license.org/>.
+ */
+
 html, body {
   background-color: black;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "VT323";
+  color: white;
 }
 
 a {
@@ -16,30 +36,52 @@ a:hover {
 }
 
 .container {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 0%;
-  /* align-items: center; */
-  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.item {
-  font-family: 'VT323', monospace;
-  color: white;
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   font-size: 27px;
-  padding: 0 3% 0 3%;
+  padding: 0 3%;
+  width: 66vw;
 }
 
-.itemImg{
-  color: blue;
-  padding: 15px 0 15px 0;
+.itemTextContainer {
+  max-width: 680px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 34vw;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .imgContainer {
+    display: none;
+  }
+}
+
+#img {
+  padding: 15px 0;
+}
+
+#funfact {
+  text-align: justify;
 }
 
 .itemTitle {
   font-family: 'VT323', monospace;
   font-size: 40px;
-  padding: 15px 0 15px 0;
+  padding: 15px 0;
+}
+
+.welcome-msg {
+  text-align: center;
 }
 
 .infinite-cursor {
