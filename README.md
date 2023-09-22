@@ -21,7 +21,9 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/fonts/VT323-Regular.ttf - by Peter Hull, licensed under the Open Font License, taken from https://fonts.google.com/specimen/VT323 
 * /resources/img/itemImg/96BYTHT.jpg - taken from -UNKNOWN-
 * /resources/img/itemImg/anewwall.png - taken from -UNKNOWN-
+* /resources/img/itemImg/e699cce5b24e1671a12fd45d0dcbf50e.jpg - taken from https://gelbooru.com/index.php?page=post&s=view&id=7620978
 * /resources/img/itemImg/morpho.jpg - taken from https://github.com/szorfein/dotfiles/
+* /resources/img/itemImg/pipkin_pippa_by_ecjhonny_deykvrn-375w-2x.jpg - taken from https://www.deviantart.com/ecjhonny/art/Pipkin-Pippa-904607699
 * /resources/img/itemImg/wadim-kashin-monday.jpg - taken from -UNKNOWN-
 * /resources/img/itemImg/wallhaven-137qmv.png - taken from https://wallhaven.cc/w/137qmv
 * /resources/img/itemImg/wallhaven-1k136g.jpg - taken from https://wallhaven.cc/w/1k136g

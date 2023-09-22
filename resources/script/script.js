@@ -25,7 +25,9 @@
 const imgPathArr = [
   "./resources/img/itemImg/96BYTHT.jpg",
   "./resources/img/itemImg/anewwall.png",
+  "./resources/img/itemImg/e699cce5b24e1671a12fd45d0dcbf50e.jpg",
   "./resources/img/itemImg/morpho.jpg",
+  "./resources/img/itemImg/pipkin_pippa_by_ecjhonny_deykvrn-375w-2x.jpg",
   "./resources/img/itemImg/wadim-kashin-monday.jpg",
   "./resources/img/itemImg/wallhaven-137qmv.png",
   "./resources/img/itemImg/wallhaven-1k136g.jpg",
