@@ -163,4 +163,3 @@ document.body.style.color = textColorArr[textColor]
 
 /* Set other text color as textColor, just to be safe */
 document.querySelectorAll("a").forEach(a => a.style.color = textColorArr[textColor])
-document.querySelectorAll(".selected").forEach(selected => selected.style.background = textColorArr[textColor])
