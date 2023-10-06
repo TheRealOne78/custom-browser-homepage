@@ -102,3 +102,25 @@ a:hover {
     background-color: currentColor;
   }
 }
+
+.noscript {
+  color: black !important;
+  text-align: center;
+  font-size: 27px;
+  animation: noscript 3s infinite;
+}
+
+@keyframes noscript {
+  0% {
+    background-color: #C19C00;
+  }
+  50% {
+    background-color: #C19C00;
+  }
+  51% {
+    background-color: #C50F1F;
+  }
+  100% {
+    background-color: #C50F1F;
+  }
+}
