@@ -156,7 +156,8 @@ const randFortune = fortuneArr[Math.floor(Math.random() * fortuneArr.length)]
 document.getElementById("funfact").innerHTML = randFortune;
 
 /* Pre-defined terminal-like HEX colors */
-const textColorArr = [ "#ffffff", "#0037DA", "#3A96DD", "#13A10E", "#881798", "#C50F1F", "#C19C00" ]
+const textColorArr = [ "#ffffff", "#0037DA", "#3A96DD", "#13A10E", "#881798", "#C50F1F", "#C19C00", "#ffcadc"]
+
 
 /* Get a random HEX color from textColorArr */
 const textColor = Math.floor(Math.random() * textColorArr.length)
