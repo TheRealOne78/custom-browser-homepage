@@ -26,6 +26,7 @@ const imgPathArr = [
   "./resources/img/itemImg/96BYTHT.jpg",
   "./resources/img/itemImg/anewwall.png",
   "./resources/img/itemImg/e699cce5b24e1671a12fd45d0dcbf50e.jpg",
+  "./resources/img/itemImg/Mirai Nikki half-moon - Phonkha x zecki Slaughter.gif",
   "./resources/img/itemImg/morpho.jpg",
   "./resources/img/itemImg/pipkin_pippa_by_ecjhonny_deykvrn-375w-2x.jpg",
   "./resources/img/itemImg/wadim-kashin-monday.jpg",
@@ -147,23 +148,62 @@ const fortuneArr = [
   <!--https://facts.net/did-you-know-facts/ - fair use -->"
 ]
 
+
+const morbidFortuneArr = [
+  "You are a life failure.\n\
+  <!--ChatGPT-->",
+
+  "You are a useless piece of shit.\n\
+  <!--ChatGPT-->",
+
+  "Your parents failed to abort you.\n\
+  <!--ChatGPT-->",
+]
+
 /* Get a random path from imgPathArr and set it in HTML */
 const randImgPath = imgPathArr[Math.floor(Math.random() * imgPathArr.length)]
 document.getElementById("img").src = randImgPath;
 
-/* Get a random path from fortuneArr and set it in HTML */
-const randFortune = fortuneArr[Math.floor(Math.random() * fortuneArr.length)]
-document.getElementById("funfact").innerHTML = randFortune;
+if(randImgPath != "./resources/img/itemImg/Mirai Nikki half-moon - Phonkha x zecki Slaughter.gif") {
+  /* Get a random fortuneArr and set it in HTML */
+  const randFortune = fortuneArr[Math.floor(Math.random() * fortuneArr.length)]
+  document.getElementById("funfact").innerHTML = randFortune;
 
-/* Pre-defined terminal-like HEX colors */
-const textColorArr = [ "#ffffff", "#0037DA", "#3A96DD", "#13A10E", "#881798", "#C50F1F", "#C19C00", "#ffcadc"]
+  /* Pre-defined terminal-like HEX colors */
+  const textColorArr = [ "#ffffff", "#0037DA", "#3A96DD", "#13A10E", "#881798", "#C50F1F", "#C19C00", "#ffcadc"]
 
 
-/* Get a random HEX color from textColorArr */
-const textColor = Math.floor(Math.random() * textColorArr.length)
+  /* Get a random HEX color from textColorArr */
+  const textColor = Math.floor(Math.random() * textColorArr.length)
 
-/* Set the body text color as textColor */
-document.body.style.color = textColorArr[textColor]
+  /* Set the body text color as textColor */
+  document.body.style.color = textColorArr[textColor]
 
-/* Set other text color as textColor, just to be safe */
-document.querySelectorAll("a").forEach(a => a.style.color = textColorArr[textColor])
+  /* Set other text color as textColor, just to be safe */
+  document.querySelectorAll("a").forEach(a => a.style.color = textColorArr[textColor])
+}
+
+else { /* MORBID */
+  /* Get a random morbidFortuneArr and set it in HTML */
+  const randMorbidFortune = morbidFortuneArr[Math.floor(Math.random() * morbidFortuneArr.length)]
+  document.getElementById("funfact").innerHTML = randMorbidFortune;
+
+  /* Set background color to an unsettling red color */
+  document.body.style.background = "#B30E08"
+
+  /* Get a random HEX color from textColorArr */
+  const textColor = "#000000"
+
+  /* Set the body text color as textColor */
+  document.body.style.color = textColor
+
+
+  /* Set other text color as textColor, just to be safe */
+  document.querySelectorAll("a").forEach(a => a.style.color = textColor)
+
+  document.querySelectorAll(".welcome-message").forEach(itemTitle => itemTitle.innerHTML = "Ḑ̴̅i̶̼̊e̷̢͆ ̶͖̽<b>T̴͎̏h̶̦͑e̷̬̎R̵̥̆è̵͓a̶͎̽l̸̻͛Ỏ̴̦ṉ̶̌ȇ̶̟7̴̧̾8̴̰́</b>!̶̚ͅ")
+
+  document.querySelectorAll(".infinite-cursor").forEach(itemTitle => itemTitle.style.remove())
+
+  document.title = "Death awaits you..."
+}

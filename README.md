@@ -22,6 +22,7 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/img/itemImg/96BYTHT.jpg - taken from -UNKNOWN-
 * /resources/img/itemImg/anewwall.png - taken from -UNKNOWN-
 * /resources/img/itemImg/e699cce5b24e1671a12fd45d0dcbf50e.jpg - taken from https://gelbooru.com/index.php?page=post&s=view&id=7620978
+* /resources/img/itemImg/Mirai Nikki half-moon - Phonkha x zecki Slaughter.gif - taken from https://youtu.be/kZj4WAhyHTI
 * /resources/img/itemImg/morpho.jpg - taken from https://github.com/szorfein/dotfiles/
 * /resources/img/itemImg/pipkin_pippa_by_ecjhonny_deykvrn-375w-2x.jpg - taken from https://www.deviantart.com/ecjhonny/art/Pipkin-Pippa-904607699
 * /resources/img/itemImg/wadim-kashin-monday.jpg - taken from -UNKNOWN-
@@ -62,9 +63,9 @@ You should have received a copy of the MIT license. If not, you can get one from
 
 ```bash
 .
+├── homepage.html
 ├── LICENSE.MIT
 ├── README.md
-├── homepage.html
 └── resources
     ├── css
     │   └── main.css
@@ -77,7 +78,10 @@ You should have received a copy of the MIT license. If not, you can get one from
     │   │   ├── 244895-aliya06.png
     │   │   ├── 96BYTHT.jpg
     │   │   ├── anewwall.png
+    │   │   ├── e699cce5b24e1671a12fd45d0dcbf50e.jpg
+    │   │   ├── Mirai Nikki half-moon - Phonkha x zecki Slaughter.gif
     │   │   ├── morpho.jpg
+    │   │   ├── pipkin_pippa_by_ecjhonny_deykvrn-375w-2x.jpg
     │   │   ├── wadim-kashin-monday.jpg
     │   │   ├── wallhaven-137qmv.png
     │   │   ├── wallhaven-1k136g.jpg
@@ -116,5 +120,5 @@ You should have received a copy of the MIT license. If not, you can get one from
     └── script
         └── script.js
 
-8 directories, 46 files
+8 directories, 49 files
 ```
