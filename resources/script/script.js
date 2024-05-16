@@ -189,7 +189,8 @@ else { /* MORBID */
   document.getElementById("funfact").innerHTML = randMorbidFortune;
 
   /* Set background color to an unsettling red color */
-  document.body.style.background = "#B30E08"
+  document.documentElement.style.background = "#B30E08"
+  document.body.style.background            = "#B30E08"
 
   /* Get a random HEX color from textColorArr */
   const textColor = "#000000"
