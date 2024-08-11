@@ -22,7 +22,7 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/img/itemImg/96BYTHT.jpg - taken from -UNKNOWN-
 * /resources/img/itemImg/anewwall.png - taken from -UNKNOWN-
 * /resources/img/itemImg/morpho.jpg - taken from https://github.com/szorfein/dotfiles/
-* /resources/img/itemImg/wadim-kashin-monday.jpg - taken from -UNKNOWN-
+* /resources/img/itemImg/wadim-kashin-monday.jpg - taken from https://art.alphacoders.com/arts/view/84301
 * /resources/img/itemImg/wallhaven-137qmv.png - taken from https://wallhaven.cc/w/137qmv
 * /resources/img/itemImg/wallhaven-1k136g.jpg - taken from https://wallhaven.cc/w/1k136g
 * /resources/img/itemImg/wallhaven-28wrdx.jpg - taken from https://wallhaven.cc/w/28wrdx
