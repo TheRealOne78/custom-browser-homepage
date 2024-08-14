@@ -61,7 +61,7 @@ a:hover { text-decoration: underline; }
     .img-container { display: none; }
 }
 
-#img { padding: 15px 0; }
+#img { margin: 15px 0; }
 
 #fun-fact { text-align: justify; }
 
