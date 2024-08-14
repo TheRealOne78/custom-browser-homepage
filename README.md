@@ -2,7 +2,7 @@
 
 A fairly minimalistic but also neofetch-like browser homepage.
 
-![demoimg](https://i.imgur.com/NV6Wm6g.png)
+![demoimg](https://i.imgur.com/T0lAxPA.png)
 
 ## Make it yours!
 
@@ -24,8 +24,8 @@ You should have received a copy of the MIT license. If not, you can get one from
 * /resources/img/itemImg/e699cce5b24e1671a12fd45d0dcbf50e.jpg - taken from https://gelbooru.com/index.php?page=post&s=view&id=7620978
 * /resources/img/itemImg/Mirai Nikki half-moon - Phonkha x zecki Slaughter.gif - taken from https://youtu.be/kZj4WAhyHTI
 * /resources/img/itemImg/morpho.jpg - taken from https://github.com/szorfein/dotfiles/
+* /resources/img/itemImg/wadim-kashin-monday.jpg - taken from https://art.alphacoders.com/arts/view/84301
 * /resources/img/itemImg/pipkin_pippa_by_ecjhonny_deykvrn-375w-2x.jpg - taken from https://www.deviantart.com/ecjhonny/art/Pipkin-Pippa-904607699
-* /resources/img/itemImg/wadim-kashin-monday.jpg - taken from -UNKNOWN-
 * /resources/img/itemImg/wallhaven-137qmv.png - taken from https://wallhaven.cc/w/137qmv
 * /resources/img/itemImg/wallhaven-1k136g.jpg - taken from https://wallhaven.cc/w/1k136g
 * /resources/img/itemImg/wallhaven-28wrdx.jpg - taken from https://wallhaven.cc/w/28wrdx
