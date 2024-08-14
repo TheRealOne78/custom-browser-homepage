@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2023 TheRealOne78 <bajcsielias78@gmail.com>
+ *  Copyright (C) 2023-2024 TheRealOne78 <bajcsielias78@gmail.com>
  *
  *  This file is part of the 'TheRealOne78's Browser Homepage' project
  *
@@ -167,7 +167,7 @@ document.getElementById("img").src = randImgPath;
 if(randImgPath != "./resources/img/itemImg/Mirai Nikki half-moon - Phonkha x zecki Slaughter.gif") {
   /* Get a random fortuneArr and set it in HTML */
   const randFortune = fortuneArr[Math.floor(Math.random() * fortuneArr.length)]
-  document.getElementById("funfact").innerHTML = randFortune;
+  document.getElementById("fun-fact").innerHTML = randFortune;
 
   /* Pre-defined terminal-like HEX colors */
   const textColorArr = [ "#ffffff", "#0037DA", "#3A96DD", "#13A10E", "#881798", "#C50F1F", "#C19C00", "#ffcadc"]
