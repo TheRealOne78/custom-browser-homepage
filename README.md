@@ -2,7 +2,7 @@
 
 A fairly minimalistic but also neofetch-like browser homepage.
 
-![demoimg](https://i.imgur.com/T0lAxPA.png)
+![Banner](https://i.imgur.com/T0lAxPA.png)
 
 ## Make it yours!
 
