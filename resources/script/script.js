@@ -186,7 +186,7 @@ if(randImgPath != "./resources/img/itemImg/Mirai Nikki half-moon - Phonkha x zec
 else { /* MORBID */
   /* Get a random morbidFortuneArr and set it in HTML */
   const randMorbidFortune = morbidFortuneArr[Math.floor(Math.random() * morbidFortuneArr.length)]
-  document.getElementById("funfact").innerHTML = randMorbidFortune;
+  document.getElementById("fun-fact").innerHTML = randMorbidFortune;
 
   /* Set background color to an unsettling red color */
   document.documentElement.style.background = "#B30E08"
